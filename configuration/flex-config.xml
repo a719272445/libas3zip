@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<flex-config>
+	<target-player>10.0.0</target-player>
+	<compiler>
+		<debug>false</debug>
+		<source-path>
+			<path-element>../source</path-element>
+		</source-path>
+	</compiler>
+	<directory>false</directory>
+	<output>../binary/1.0.swc</output>
+	<include-classes>
+		<class>nochump.util.zip.ZipFile</class>
+		<class>nochump.util.zip.ZipOutput</class>
+	</include-classes>
+</flex-config>
